@@ -57,8 +57,9 @@ def testing_everything() -> None:
     print("All custom error types work correctly!")
 
 
-testing_planterror()
-print()
-testing_watererror()
-print()
-testing_everything()
+if (__name__ == "__main__"):
+    testing_planterror()
+    print()
+    testing_watererror()
+    print()
+    testing_everything()

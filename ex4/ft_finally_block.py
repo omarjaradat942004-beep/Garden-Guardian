@@ -37,4 +37,5 @@ def test_watering_system() -> None:
         print("Cleanup always happens, even with errors!")
 
 
-test_watering_system()
+if (__name__ == "__main__"):
+    test_watering_system()
